@@ -1,0 +1,124 @@
+# Requirements Document
+
+## Project Name
+E-Commerce Website – Manual Testing
+
+## Objective
+
+To verify that the major functionalities of the e-commerce application work correctly and provide a reliable shopping experience for users.
+
+## Functional Requirements
+
+### FR-01: User Registration
+The application should allow new users to register by providing the required information.
+
+The system should:
+- Accept valid registration details.
+- Validate mandatory fields.
+- Validate email format.
+- Prevent registration with an already registered email.
+- Validate password requirements.
+
+### FR-02: User Login
+The application should allow registered users to log in using valid credentials.
+
+The system should:
+- Accept valid username/email and password.
+- Reject invalid passwords.
+- Reject unregistered users.
+- Validate empty username fields.
+- Validate empty password fields.
+
+### FR-03: Product Search
+The application should allow users to search for products.
+
+The system should:
+- Display relevant products for a valid search.
+- Support partial product searches.
+- Handle products that do not exist.
+- Handle special characters appropriately.
+- Handle an empty search input.
+
+### FR-04: Product Details
+The application should display complete and accurate product information.
+
+The system should:
+- Open the correct product details page.
+- Display the product name and description.
+- Display the correct product price.
+- Allow users to add the product to the cart.
+
+### FR-05: Shopping Cart
+The application should allow users to manage products in the shopping cart.
+
+The system should:
+- Display added products.
+- Allow products to be removed.
+- Allow multiple products to be added.
+- Display the correct product quantity.
+- Calculate and display the correct cart total.
+
+### FR-06: Checkout
+The application should allow users to proceed through the checkout process.
+
+The system should:
+- Allow users to proceed to checkout.
+- Accept valid customer information.
+- Validate missing mandatory information.
+- Validate invalid customer information.
+- Display an accurate order summary before payment.
+
+### FR-07: Payment
+The application should provide available payment methods and allow users to complete payment.
+
+The system should:
+- Support Credit Card payment.
+- Support Debit Card payment.
+- Support Net Banking.
+- Support Cash on Delivery.
+- Validate missing payment information.
+- Allow users to select a payment method.
+
+### FR-08: Order Confirmation
+The application should provide order confirmation after a successful purchase.
+
+The system should:
+- Display an order confirmation.
+- Display the correct order details.
+- Display a unique order ID/reference.
+
+## Non-Functional Requirements
+
+### Usability
+- The application should provide a user-friendly interface.
+- Navigation between shopping and checkout pages should be clear.
+
+### Reliability
+- The application should process valid user actions correctly.
+- The application should display appropriate messages when an operation fails.
+
+### Error Handling
+- Invalid inputs should display appropriate validation messages.
+- Failed operations should provide meaningful error messages.
+
+## Testing Scope
+
+The following modules are included in testing:
+
+- Registration
+- Login
+- Product Search
+- Product Details
+- Shopping Cart
+- Checkout
+- Payment
+- Order Confirmation
+
+## Testing Techniques
+
+- Functional Testing
+- Positive Testing
+- Negative Testing
+- Equivalence Partitioning
+- Boundary Value Analysis
+- Decision Table Testing

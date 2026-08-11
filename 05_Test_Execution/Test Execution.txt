@@ -1,0 +1,51 @@
+# Test Execution Report
+
+## Project Name
+E-Commerce Website – Manual Testing
+
+## Execution Summary
+
+| Metric | Result |
+|---|---:|
+| Total Test Cases | 38 |
+| Test Cases Executed | 38 |
+| Passed | 31 |
+| Failed | 4 |
+| Blocked | 3 |
+| Bugs Found | 1 |
+| Pass Percentage | 81.58% |
+
+## Module-wise Execution
+
+| Module | Total | Passed | Failed | Blocked |
+|---|---:|---:|---:|---:|
+| Registration | 5 | 5 | 0 | 0 |
+| Login | 5 | 5 | 0 | 0 |
+| Product Search | 5 | 5 | 0 | 0 |
+| Product Details | 4 | 4 | 0 | 0 |
+| Cart | 5 | 5 | 0 | 0 |
+| Checkout | 5 | 5 | 0 | 0 |
+| Payment | 6 | 2 | 4 | 0 |
+| Order Confirmation | 3 | 0 | 0 | 3 |
+| **Total** | **38** | **31** | **4** | **3** |
+
+## Failed Test Cases
+
+- TC-030 – Credit Card payment
+- TC-031 – Debit Card payment
+- TC-032 – Net Banking payment
+- TC-033 – Cash on Delivery
+
+All four failed cases are linked to BUG-001.
+
+## Blocked Test Cases
+
+- TC-036 – Order confirmation
+- TC-037 – Order details
+- TC-038 – Order ID/reference
+
+These test cases could not be completed because the order could not be placed.
+
+## Conclusion
+
+A total of 38 test cases were evaluated. Registration, Login, Product Search, Product Details, Cart, and Checkout functionality performed as expected. Four payment test cases failed because the application displayed "Failed to place order" for all available payment methods. Three order-confirmation test cases were blocked as a result. One high-priority defect was identified and documented.
